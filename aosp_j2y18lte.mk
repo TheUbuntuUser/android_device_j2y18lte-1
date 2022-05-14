@@ -14,6 +14,7 @@
 # limitations under the License.
 
 # Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common DU stuff
@@ -30,7 +31,7 @@ PRODUCT_DEVICE := j2y18lte
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_NAME := aosp_j2y18lte
 PRODUCT_MODEL := Galaxy J2 Pro
-TARGET_GAPPS_ARCH := arm
+TARGET_GAPPS_ARCH := arm64
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 TARGET_VENDOR := samsung
