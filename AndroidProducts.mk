@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_j2y18lte.mk
+    $(LOCAL_DIR)/arrow_j2y18lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_j2y18lte-user \
-    aosp_j2y18lte-userdebug \
-    aosp_j2y18lte-eng \
+    arrow_j2y18lte-user \
+    arrow_j2y18lte-userdebug \
+    arrow_j2y18lte-eng \
