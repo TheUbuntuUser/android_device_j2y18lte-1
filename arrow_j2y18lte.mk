@@ -31,7 +31,6 @@ PRODUCT_DEVICE := j2y18lte
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_NAME := arrow_j2y18lte
 PRODUCT_MODEL := Galaxy J2 Pro
-TARGET_GAPPS_ARCH := arm64
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 TARGET_VENDOR := samsung
