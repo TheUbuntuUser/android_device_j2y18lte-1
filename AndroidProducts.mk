@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_j2y18lte.mk
+    $(LOCAL_DIR)/ancient_j2y18lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_j2y18lte-user \
-    arrow_j2y18lte-userdebug \
-    arrow_j2y18lte-eng \
+    ancient_j2y18lte-user \
+    ancient_j2y18lte-userdebug \
+    ancient_j2y18lte-eng \

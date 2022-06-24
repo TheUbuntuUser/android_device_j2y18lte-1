@@ -17,8 +17,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Arrow stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Ancient stuff.
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 720
+
+# Official
+ANCIENT_OFFICIAL := true
+
+# No Gapps
+ANCIENT_NOGAPPS := true
 
 # Inherit from j4corelte device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -29,7 +38,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := j2y18lte
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_NAME := arrow_j2y18lte
+PRODUCT_NAME := ancient_j2y18lte
 PRODUCT_MODEL := Galaxy J2 Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

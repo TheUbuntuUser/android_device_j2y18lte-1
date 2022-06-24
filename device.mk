@@ -69,5 +69,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     device/samsung/j2y18lte
 
+# Bootanimation Resolution
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 # Inherit vendor
 $(call inherit-product, vendor/samsung/j2y18lte/j2y18lte-vendor.mk)
