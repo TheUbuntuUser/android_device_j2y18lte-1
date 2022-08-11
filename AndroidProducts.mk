@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_j2y18lte.mk
+    $(LOCAL_DIR)/cherish_j2y18lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_j2y18lte-user \
-    ancient_j2y18lte-userdebug \
-    ancient_j2y18lte-eng \
+    cherish_j2y18lte-user \
+    cherish_j2y18lte-userdebug \
+    cherish_j2y18lte-eng \
